@@ -265,7 +265,7 @@ background: #fff;
   gap: 24px; 
 }
 
-.team-list .link {
+.social-list .link {
   display: flex;
   justify-content: center;
   align-items: center;
