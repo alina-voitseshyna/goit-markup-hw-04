@@ -283,6 +283,11 @@ height: 40px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
+.social-links-item:hover,
+.social-links-item:focus {
+  background-color: #404bbf
+}
+
 .teammembers-list {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px; 
