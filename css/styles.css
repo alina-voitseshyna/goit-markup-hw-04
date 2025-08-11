@@ -360,7 +360,10 @@ margin-bottom: 72px;
 .container-portfolio-image {
 position: relative;
 overflow: hidden;
-transform: translateY(0%);
+}
+
+.container-portfolio-image:hover {
+  transform: translateY(0%);
 }
 
 .container-portfolio-text {
