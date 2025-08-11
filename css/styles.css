@@ -345,20 +345,21 @@ margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+
 }
 .portfolio-context {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-context.hover {
+.portfolio-list.hover {
+  transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .container-portfolio-image {
 position: relative;
 overflow: hidden;
-translateY(0%);
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-portfolio-text {
