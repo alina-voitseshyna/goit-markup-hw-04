@@ -258,7 +258,10 @@ background: #fff;
 .team-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 8px;
+}
+
+.job-title {
+margin-bottom: 8px;
 }
 
 .social-icons {
