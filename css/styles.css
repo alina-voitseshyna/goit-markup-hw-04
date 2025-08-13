@@ -260,10 +260,6 @@ background: #fff;
   gap: 24px;
 }
 
-.job-title {
-margin-bottom: 8px;
-}
-
 .social-icons {
   fill: #f4f4fd;
 }
@@ -272,6 +268,7 @@ margin-bottom: 8px;
   display: flex;
   justify-content: center; 
   gap: 24px; 
+  margin-top: 8px;
 }
 
 .social-link {
